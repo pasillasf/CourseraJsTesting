@@ -4,7 +4,7 @@ function showweatherDetails(event) {
     const city = document.getElementById('city').value.trim();
     const lat = document.getElementById('lat').value.trim();
     const long = document.getElementById('long').value.trim();
-    const apiKey = 'da62887b7614abf20176516fa9195211'; // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = '211'; // Replace 'YOUR_API_KEY' with your actual API key
     let apiUrl = '';
     
     if (city !== '') {
